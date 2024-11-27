@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: anzo ;
+  src : url(./assets/file.woff2)
+}
+@font-face {
+  font-family: anzo1 ;
+  src : url(./assets/file1.woff2)
+}
+@font-face {
+  font-family: anzo2 ;
+  src : url(./assets/file2.woff2)
+}
+@font-face {
+  font-family: anzo3 ;
+  src : url(./assets/file3.woff2)
+}
+@font-face {
+  font-family: anzo4 ;
+  src : url(./assets/file4.woff2)
+}
+@font-face {
+  font-family: madefor ;
+  src : url(./assets/madefor-text.var.original.woff2)
+}
+
+
+@font-face {
+  font-family: a1 ;
+  src : url(./assets/a1.otf)
+}
+@font-face {
+  font-family: a2 ;
+  src : url(./assets/a1.woff)
+}
+@font-face {
+  font-family: a3 ;
+  src : url(./assets/a1.woff2)
+}
+@font-face {
+  font-family: a4 ;
+  src : url(./assets/a1(1).ttf)
+}
+@font-face {
+  font-family: a5 ;
+  src : url(./assets/Abide.otf)
+}
+
+#page1{
+  
+  perspective:1000px;
+}
+#page2{
+  perspective:1000px;
+ 
+}
+#tiltRef{
+  transform:rotateX(50deg);
+}
+.h1{
+ transform-origin:100% 90%;
+}
+.bgVideo{
+  z-index:9;
+}
+.video{
+  z-index:5;
+}
