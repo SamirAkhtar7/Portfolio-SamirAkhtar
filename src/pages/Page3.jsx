@@ -20,7 +20,7 @@ export const Page3 = () => {
             muted
             loop
             className="video "
-            src="/src/video/video2.mp4"
+            src="src/video/video2.mp4"
           ></video>
         </div>
 
