@@ -1,4 +1,5 @@
 import React from "react";
+import v5 from "../assets/video/video2.mp4";
 
 export const Page3 = () => {
   return (
@@ -20,7 +21,7 @@ export const Page3 = () => {
             muted
             loop
             className="video "
-            src="src/video/video2.mp4"
+            src={v5}
           ></video>
         </div>
 

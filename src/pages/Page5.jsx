@@ -1,12 +1,14 @@
 import React from 'react'
+import i1 from "../assets/gg.webp"
+import i2 from "../assets/ss.webp";
 
 const Page5 = () => {
   return (
     <>
-      <div className=" mt-50 bg-[url('src/assets/gg.webp')] bg-center bg-contain bg-no-repeat bg-fixed">
+      <div className=' mt-50 bg-[url("./assets/gg.webp")] bg-center bg-contain bg-no-repeat bg-fixed'>
         <img
           className=" relative h-[150vh] w-full "
-          src="src/assets/ss.webp"
+          src={i2}
           alt=""
         />
       </div>

@@ -3,27 +3,32 @@ import gsap from "gsap";
 import React from "react";
 import { Link } from "react-router-dom";
 import { RiH1 } from "react-icons/ri";
+import v1 from "../assets/video/Screen.mp4"
+import v2 from "../assets/video/BaileyBrown1.mp4";
+import v3 from "../assets/video/js.mp4";
+import v4 from "../assets/video/v1.mp4";
+
 
 const Page6 = () => {
   const projectVideo = [
     {
       title: "Project:- 1",
-      videoSrc: "src/video/Screen.mp4",
+      videoSrc: v1,
       repoLink: "https://samirakhtar7.github.io/Ochi/",
     },
     {
       title: "Project:- 2",
-      videoSrc: "src/video/BaileyBrown1.mp4",
+      videoSrc: v2,
       repoLink: "https://samirakhtar7.github.io/Bailey-Brown/",
     },
     {
       title: "Project:- 3",
-      videoSrc: "src/video/js.mp4",
+      videoSrc: v3,
       repoLink: "https://samirakhtar7.github.io/Jstimler-/",
     },
     {
       title: "Project:- 5",
-      videoSrc: "src/video/v1.mp4",
+      videoSrc: v4,
       repoLink: "https://samirakhtar7.github.io/14islands/",
     },
   ];
