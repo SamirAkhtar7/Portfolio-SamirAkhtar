@@ -5,7 +5,7 @@ import i2 from "../assets/ss.webp";
 const Page5 = () => {
   return (
     <>
-      <div className=' mt-50 bg-[url("./assets/gg.webp")] bg-center bg-contain bg-no-repeat bg-fixed'>
+      <div className=' mt-50 bg-[url("./assets/ss.webp")] bg-center bg-contain bg-no-repeat bg-fixed'>
         <img
           className=" relative h-[150vh] w-full "
           src={i2}
